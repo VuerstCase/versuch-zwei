@@ -1,0 +1,36 @@
+
+body {
+    margin: 0;
+}
+header {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px 15px 5px #000000;        }
+header a {
+    margin-right: 20px;
+    font-size: 60px;
+    text-decoration: none;
+}
+.taiwan {
+    font-size: 100px;
+    margin-top: 150px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+.taiwan a{
+    background-color: brown;
+    color: bisque;
+    text-decoration: none;
+    padding: 20px;
+    border:50px dashed pink;
+}
+.taiwan a :hover {
+    background-color: black ;
+}
+
+header a:hover {
+    color: rgb(73, 149, 15);
+}
